@@ -1,0 +1,39 @@
+fastapi==0.111.0
+uvicorn[standard]==0.30.1
+
+# Machine Learning / Embedding / Clustering
+numpy==1.26.4
+scipy==1.11.4
+scikit-learn==1.4.1.post1
+umap-learn==0.5.5
+hdbscan==0.8.33
+
+# Transformers / Sentence Models
+torch==2.2.2
+transformers==4.43.3
+sentence-transformers==2.7.0
+tokenizers==0.19.1
+
+# Utilities
+pandas==2.2.2
+pydantic==2.7.4
+python-dotenv==1.0.1
+requests==2.32.3
+tqdm==4.66.4
+regex==2024.5.15
+pyyaml==6.0.1
+safetensors==0.4.3
+
+# Optional but used internally
+networkx==3.3
+numba==0.59.1
+
+# Embedding / dataset
+pynndescent==0.5.13
+
+# LLM API
+openai==1.35.12
+mistralai==0.4.2
+
+# Starlette related
+anyio==4.3.0

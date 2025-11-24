@@ -160,7 +160,7 @@
 /* 메인 레이아웃 */
 
 .app-main {
-  max-width: 1200px;
+  max-width: 1600px;
   margin: 0 auto;
   padding: 24px 48px 40px;
 }
@@ -800,13 +800,13 @@ input[type="range"] {
   }
 
   .left-column {
-    flex: 1;
+    flex: 1.2;
     /* 왼쪽 비율 1 */
     min-width: 360px;
   }
 
   .right-column {
-    flex: 2;
+    flex: 1.8;
     /* 오른쪽 비율 2 (더 넓게) */
   }
 }

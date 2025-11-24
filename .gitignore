@@ -12,3 +12,6 @@ __pycache__/
 # Env files
 .env
 
+
+# Local embedding cache files
+backend/cache_embed_*.pkl
